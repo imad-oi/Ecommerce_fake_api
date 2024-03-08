@@ -1,0 +1,35 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,300;0,400;0,500;1,500&display=swap'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+} */
+
+
+@layer components {
+  .btn {
+    @apply px-6 py-2 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .ribbon {
+    @apply  text-white-100 px-2 py-1;
+  }
+
+  .card {
+    @apply bg-white-100  w-fit;
+  }
+
+  .input-search {
+    @apply bg-white-100  w-full px-4 py-2 border border-primary-75 focus:outline-none focus:ring-2 focus:ring-primary-100 focus:ring-offset-2;
+  }
+}
+
+
+
